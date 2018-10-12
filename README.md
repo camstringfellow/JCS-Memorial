@@ -2,9 +2,4 @@
 
 http://www.jcsmemorial.org
 
-## Task 
-### Task
-#### Task
-##### Task
-
-
+### Memorial website for my younger brother, John Corey Stringfellow. 
