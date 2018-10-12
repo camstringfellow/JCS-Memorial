@@ -1,5 +1,6 @@
 # JCS-Memorial
-Memorial website for my younger brother, John Corey Stringfellow.
 
-## JCS
+###Memorial website for my younger brother, John Corey Stringfellow.
+
+## Task
 
