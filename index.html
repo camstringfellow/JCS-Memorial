@@ -19,6 +19,9 @@
         <!-- fontawsome icons -->
         <link href="assets/css/fontawesome-free-5.3.1/css/fontawesome.min.css" rel="stylesheet">
         
+        <!-- Custom CSS -->
+        <link href="assets/css/custom.css" rel="stylesheet">
+        
         <!-- Google Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">
         
@@ -39,12 +42,53 @@
         <header class="site-header" role="banner">
             
             <!-- NAVBAR -->
+            <nav class="navbar navbar-expand-md bg-light navbar-light">
+              
+              <!-- Brand -->
+              <a class="navbar-brand" href="#">JCS Memorial</a>
+              
+              <!-- Toggler/collapsibe Button -->
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <!-- Navbar links -->
+              <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                 <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="/">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="awards.html">Awards</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                  </li> 
+                  <li class="nav-item">
+                    <a class="nav-link" href="gallery.html">Gallery</a>
+                  </li> 
+                </ul><!-- navbar-nav -->
+              </div><!-- navbar-collapse -->
+            </nav><!-- navbar -->
             
         </header>
         
         <!--=== HERO ===-->
-        <section>
-            
+        <section id="hero">
+            <article>
+                <div class="container clearfix">
+                    <div class="row">
+                        
+                        <div class="col-sm-7 hero-text">
+                            <h1>JCS Memorial Scholarship</h1>
+                            <p>Memorial scholarship in honor of John Corey Stringfellow</p>
+                            <p><a class="btn btn-lg btn-danger" href="/" role="button">Learn More &raquo;</a></p>
+                            
+                        </div><!-- col-sm-7 -->
+                        
+                    </div>
+                </div>
+            </article>
         </section>
         
         <!--=== RECIPIENTS ===-->
@@ -76,6 +120,9 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="assets/js/jquery-3.3.1.min.js"></script>
         <script src="assets/js/main.js"></script>
+        <!-- used for nav dropdown? -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
         
         
     </body>

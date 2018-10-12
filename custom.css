@@ -1,0 +1,57 @@
+/* COLOR REFERENCES 
+
+*/
+
+/* == GENERAL == */
+
+body {
+    font-family: 'proxima-nova', 'Raleway', Helvetica, sans-serif;
+    font-size: 16px;
+    background: url('../other-img/tile.jpg') top left repeat;
+}
+
+/* GLOBAL */
+
+h1,h2,h3,h4,h5,h6 {
+    text-rendering: optimizeLegibility;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h1,h2 {
+    margin: 0 0 40px;
+}
+
+h3 {
+    margin: 20px 0;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+.btn {
+    font-weight: bold;
+}
+
+#hero {
+    background: url('../img/hero-background.jpeg') 100% 0 repeat fixed;
+    min-height: 400px;
+    padding: 100px 0;
+    text-rendering: optimizeLegibility;
+}
+
+#hero .hero-text {
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+
+
+
+
+
