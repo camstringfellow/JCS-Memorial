@@ -33,24 +33,46 @@ h4 {
     font-size: 18px;
 }
 
+button, input, .btn, a.btn {
+    text-rendering: optimizeLegibility;
+    color: white;
+}
+
 .btn {
     font-weight: bold;
 }
 
 #hero {
-    background: url('../img/hero-background.jpeg') 100% 0 repeat fixed;
+    background-image: url('../img/hero-background.jpeg');
+    /*background: url('../img/hero-background.jpeg') 100% 0 repeat fixed;*/
+    background-size: cover;
+    background-position: fixed;
+    background-repeat: no-repeat;
     min-height: 400px;
     padding: 100px 0;
     text-rendering: optimizeLegibility;
 }
 
 #hero .hero-text {
-    margin-top: 30px;
+    margin-left: 20px;
     text-align: center;
 }
 
 
+/* === Layout === */
 
+#follow {
+    background: #3e4249;
+    padding: 20px 0;
+    color: white;
+    text-rendering: optimizeLegibility;
+    font-size: 1.2em;
+}
+
+#follow p {
+    margin: 7px 0 0 0;
+    text-align: right;
+}
 
 
 
