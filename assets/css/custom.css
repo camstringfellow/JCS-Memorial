@@ -8,7 +8,7 @@ PURPLE: #a700d8
 body {
     font-family: 'proxima-nova', 'Raleway', Helvetica, sans-serif;
     font-size: 16px;
-    background: url('../other-img/tile.jpg') top left repeat;
+    background: url('../img/tile.jpg') top left repeat;
 }
 
 /* GLOBAL */
@@ -81,6 +81,7 @@ button, input, .btn, a.btn {
 
 
 /* === Layout === */
+
 
 section {
     padding: 80px 0;
@@ -199,3 +200,84 @@ i.ci {
 .ci.ci-schools                  { background-position: -40px 0; }
 .ci.ci-scholarships             { background-position: -120px 0; }
 
+
+/*==== AWARDS PAGE ====*/
+
+/* awards-hero */
+
+#awards-hero {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url('../img/paddling.jpeg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/paddling.jpeg');
+    /*background: url('../img/hero-background.jpeg') 100% 0 repeat fixed;*/
+    background-size: cover;
+    /*background-position: fixed;*/
+    background-repeat: repeat;
+    min-height: 250px;
+    margin-top: 56px;
+    padding: 100px 0;
+    text-rendering: optimizeLegibility;
+    color: white;
+}
+
+#awards-hero .hero-text {
+    text-align: center;
+}
+
+#awards {
+    text-align: center;
+}
+
+.recipient {
+    margin-bottom: 60px;
+}
+
+.recipient img {
+    height: 250px;
+    border-radius: 10%;
+}
+
+
+/* === MEDIA QUERIES === */
+
+@media screen and ( max-width : 991px ) {
+    
+    #recipients img {
+        height: 200px;
+        border-radius: 10%;
+    }
+    
+    .recipient img {
+        height: 200px;
+    }
+    
+}
+
+/* ipad */
+@media screen and ( max-width : 768px ) {
+    
+    #video iframe {
+        height: 240px;
+    }
+    
+    #recipients img {
+        height: 150px;
+        border-radius: 10%;
+    }
+    
+    #corey img {
+        /*margin: 3% 0 0 25%;*/
+        height: 280px;
+        border-radius: 20px;
+    }
+    
+}
+
+/* iphone */
+@media screen and ( max-width : 568px ) {
+    
+    #recipients img {
+        height: 200px;
+        border-radius: 10%;
+    }
+    
+}
